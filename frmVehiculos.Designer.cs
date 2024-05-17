@@ -62,6 +62,7 @@
             // 
             // btnCrearVehiculo
             // 
+            btnCrearVehiculo.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
             btnCrearVehiculo.Location = new Point(309, 22);
             btnCrearVehiculo.Name = "btnCrearVehiculo";
             btnCrearVehiculo.Size = new Size(237, 95);
@@ -83,6 +84,7 @@
             // 
             // btnListar
             // 
+            btnListar.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
             btnListar.Location = new Point(6, 257);
             btnListar.Name = "btnListar";
             btnListar.Size = new Size(199, 95);

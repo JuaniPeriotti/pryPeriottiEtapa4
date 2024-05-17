@@ -39,7 +39,7 @@ namespace pryPeriottiEtapa4
 
         private void btnListar_Click(object sender, EventArgs e)
         {
-            string[] Vehiculos = { "Auto", "Moto", "Avión" };
+            string[] Vehiculos = { "Zentorno", "Bati-801", "Besra" };
             List<string> lstVehiculos = new List<string>(Vehiculos);
             lbVehiculos.Items.Clear();
             foreach (string vehiculo in lstVehiculos)
